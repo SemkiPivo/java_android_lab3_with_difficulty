@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TableLayout
+        android:id="@+id/mainTable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -69,9 +70,68 @@
                 android:text="@string/input_value" />
 
         </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTable">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnEasy"
+                style="@style/Widget.Material3.Button.IconButton.Outlined"
+                android:layout_width="100dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/easy"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnNormal"
+                style="@style/Widget.Material3.Button.IconButton.Outlined"
+                android:layout_width="100dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="@string/normal" />
+
+            <Button
+                android:id="@+id/btnHard"
+                style="@style/Widget.Material3.Button.IconButton.Outlined"
+                android:layout_width="100dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/hard" />
+
+        </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="136dp"
+        android:text="@string/difficulty"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTable" />
 </androidx.constraintlayout.widget.ConstraintLayout>

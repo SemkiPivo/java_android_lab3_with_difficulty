@@ -6,5 +6,11 @@
     <string name="input_value">Ввести значение</string>
     <string name="play_more">Сыграть ещё</string>
     <string name="try_to_guess">Угадайте число (1 &#8211; 50)</string>
+    <string name="try_to_guess_easy">Угадайте число (1 &#8211; 25)</string>
+    <string name="try_to_guess_hard">Угадайте число (1 &#8211; 100)</string>
     <string name="error">Неверный ввод</string>
+    <string name="difficulty">Выберите сложность</string>
+    <string name="easy">Легко</string>
+    <string name="normal">Средне</string>
+    <string name="hard">Сложно</string>
 </resources>
