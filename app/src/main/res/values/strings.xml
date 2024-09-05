@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="behind">Недолет</string>
+    <string name="ahead">Перелет</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть ещё</string>
+    <string name="try_to_guess">Угадайте число (1 &#8211; 50)</string>
+    <string name="error">Неверный ввод</string>
+</resources>
