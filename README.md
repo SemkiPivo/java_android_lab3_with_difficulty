@@ -104,7 +104,7 @@ _Для хранения любых строк, которые могут пон
 
 ## Файл MainActivity.java
 
-> Путь к файлу MainActivity.java:  app\src\main\java\com\example\lab1\MainActivity.java
+> Путь к файлу MainActivity.java:  app\src\main\java\com\example\lab3\MainActivity.java
 
 ### Методы и компоненты:
 
