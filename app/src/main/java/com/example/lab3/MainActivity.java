@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v) {
         if (isFinished) {
-            targetNumber = generateRandom(0, max);
             btnInput.setText(R.string.input_value);
         }
 
@@ -66,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 tvInfo.setText(R.string.hit);
                 isFinished = true;
                 btnInput.setText(R.string.play_more);
+                targetNumber = generateRandom(0, max);
             }
         }
     }
